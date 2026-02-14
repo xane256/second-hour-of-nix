@@ -1,0 +1,12 @@
+
+# Nix
+result
+result-*
+.direnv/
+
+# keep this repo a "template"
+flake.lock
+
+# Template validation scratch space
+.ci-scratch/
+.code/

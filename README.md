@@ -5,8 +5,8 @@ The flake is organized into several NixOS modules which can be added / removed i
 
 ## 0. Download This Flake:
 
-    nix --extra-experimental-features 'nix-command flakes' run nixpkgs#git -- clone https://github.com/xane256/second-hour-of-nix.git
-    cd second-hour-of-nix
+    # run this in an empty directory
+    nix --extra-experimental-features 'nix-command flakes' run nixpkgs#git -- clone --depth 1 https://github.com/xane256/second-hour-of-nix.git .
 
 ## 1. Hardware Configuration
 
